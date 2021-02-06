@@ -1,0 +1,14 @@
+.whoami {
+
+    .card {
+        height: 9rem;
+        background-color: #ffffff;
+        border: none;
+        border-bottom: 2px red solid;
+        box-shadow: 0 0px 32px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    }
+    
+    .card svg {
+        margin: 2rem
+    }
+}

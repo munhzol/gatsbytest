@@ -1,0 +1,53 @@
+@import '../styles/global.scss';
+
+.services {
+
+    
+    .card {
+        border: none;
+        margin-bottom: 3rem;
+        box-shadow: 0px 0px 50px #dddddd;
+        border-radius: 0;
+    }
+
+    .card:hover {
+        box-shadow: 0px 0px 50px #bbbbbb;
+    }
+    
+    .card-title {
+        text-align: center;
+        font-size: .9rem;
+        font-weight: bold;
+    }
+
+    .card-icon {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+
+    .bbc-blue {
+        border-bottom: 2px solid $clr-blue;
+    }
+
+    .bbc-red {
+        border-bottom: 2px solid $clr-red;
+    }
+
+    .bbc-green {
+        border-bottom: 2px solid $clr-green;
+    }
+
+    .bbc-yellow {
+        border-bottom: 2px solid $clr-yellow;
+    }
+
+    .bbc-light-blue {
+        border-bottom: 2px solid $clr-light-blue;
+    }
+
+    .bbc-pink {
+        border-bottom: 2px solid $clr-pink;
+    }
+}
+
